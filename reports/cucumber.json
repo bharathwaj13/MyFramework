@@ -1,0 +1,149 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-26T16:56:31.998Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4550000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hooks.Hooks.before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login to LeafTaps Application",
+        "description": "",
+        "id": "testing-leads-in-leaftaps-application;login-to-leaftaps-application",
+        "after": [
+          {
+            "result": {
+              "duration": 719000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 921000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to LeafTaps Application",
+            "match": {
+              "location": "com.cucumber.steps.LoginSteps.login_to_leaf_taps_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify User has successfully logged in",
+            "match": {
+              "location": "com.cucumber.steps.LoginSteps.verify_user_has_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-26T16:56:38.382Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1245000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hooks.Hooks.before()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Enter CreateLead Page",
+        "description": "",
+        "id": "testing-leads-in-leaftaps-application;enter-createlead-page",
+        "after": [
+          {
+            "result": {
+              "duration": 684000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cucumber.hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 816000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login to LeafTaps Application",
+            "match": {
+              "location": "com.cucumber.steps.LoginSteps.login_to_leaf_taps_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1372000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on CRMSFA Link",
+            "match": {
+              "location": "com.cucumber.steps.CreateLeadSteps.click_on_crmsfa_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1020000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Create Leads Link",
+            "match": {
+              "location": "com.cucumber.steps.CreateLeadSteps.click_create_leads_link()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Testing Leads in LeafTaps Application",
+    "description": "",
+    "id": "testing-leads-in-leaftaps-application",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/cucumber/features/CreateLead.feature",
+    "tags": []
+  }
+]
