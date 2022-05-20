@@ -1,4 +1,5 @@
 pipeline {
+	agent any
     env.path = "C:/Softwares/apache-maven-3.8.4/bin;C:\\Windows\\System32"
     stages{
     stage('checkout'){
