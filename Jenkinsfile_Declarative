@@ -1,6 +1,6 @@
 pipeline {
 	agent any
-    env.path = "C:/Softwares/apache-maven-3.8.4/bin;C:\\Windows\\System32"
+    
     stages{
     stage('checkout'){
     steps{
@@ -9,7 +9,7 @@ pipeline {
         }
     stage('build'){
     steps{
-    
+    env.path = "C:/Softwares/apache-maven-3.8.4/bin;C:\\Windows\\System32"
         dir('C:\\Users\\bhara\\eclipse-workspace\\FrameworkFromScratch') 
         {
             bat 'mvn package'
