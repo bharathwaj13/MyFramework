@@ -60,6 +60,9 @@ public class BaseTest {
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.IMPLICITLY_WAIT));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Constants.PAGE_LOAD_TIMEOUT));
+		System.out.println("Test from cts Learn");
+		System.out.println("Test from cts Learn Line 2");
+		System.out.println("Test from cts Learn Line 3");
 
 	}
 	
