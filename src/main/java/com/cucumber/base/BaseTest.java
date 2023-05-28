@@ -63,6 +63,8 @@ public class BaseTest {
 		System.out.println("Test from cts Learn");
 		System.out.println("Test from cts Learn Line 2");
 		System.out.println("Test from cts Learn Line 3");
+		System.out.println("Lines to test merge from learn Branch");
+		System.out.println("Lines to test merge from learn Branch");
 
 	}
 	
