@@ -58,6 +58,8 @@ public class BaseTest {
 		}
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.IMPLICITLY_WAIT));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Constants.PAGE_LOAD_TIMEOUT));
+		System.out.println("Lines to test merge from learn Branch");
+		System.out.println("Lines to test merge from learn Branch");
 
 	}
 	
