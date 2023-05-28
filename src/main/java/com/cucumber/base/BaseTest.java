@@ -43,9 +43,6 @@ public class BaseTest {
 	public void method() {
 		
 	}
-	public static void MethodInCTSLearnBranch() {
-		
-	}
 
 	public static void initBrowser() {
 		String browser=prop.getProperty("browser");
