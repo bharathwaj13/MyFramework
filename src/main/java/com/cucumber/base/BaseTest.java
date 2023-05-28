@@ -18,6 +18,8 @@ import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
+	
+	//Practice GIT
 
 	public static WebDriver driver;
 	public static Properties prop;
