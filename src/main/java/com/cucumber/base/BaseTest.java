@@ -38,6 +38,9 @@ public class BaseTest {
 		System.out.println("Method added to work on Merge Conflicts");
 	}
 
+	public void method() {
+		
+	}
 
 	public static void initBrowser() {
 		String browser=prop.getProperty("browser");
