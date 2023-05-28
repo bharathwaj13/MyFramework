@@ -5,16 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
 import com.cucumber.utils.Constants;
-
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
@@ -38,6 +32,10 @@ public class BaseTest {
 			e.printStackTrace();
 		}
 
+	}
+	
+	public static void gitLearnMethod() {
+		System.out.println("Method added to work on Merge Conflicts");
 	}
 
 	public void method() {
