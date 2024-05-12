@@ -16,7 +16,7 @@ public class CreateLeadSteps extends BaseTest {
 	@Then("Click on CRMSFA Link")
 	public void click_on_crmsfa_link() {
 		homePage.clickCRMSFAButton();
-		System.out.println("Master branch line 1");
+		System.out.println("Master branch line 10");
 		Assert.assertTrue(myHomePage.getTitle().contains("My Home"));
 	}
 
