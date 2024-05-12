@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="50bd1d34-249c-4f9b-9c0f-9bcfd700a67b" name="Changes" comment="" />
+=======
+    <list default="true" id="50bd1d34-249c-4f9b-9c0f-9bcfd700a67b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cucumber/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cucumber/pages/LoginPage.java" afterDir="false" />
+    </list>
+>>>>>>> 9a8780fc41d1622a32e146be1eb26d6a69c24381
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +48,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
+=======
+    &quot;git-widget-placeholder&quot;: &quot;Merging cts__learn&quot;,
+>>>>>>> 9a8780fc41d1622a32e146be1eb26d6a69c24381
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
@@ -87,6 +97,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Random commits" />
     <MESSAGE value="Just commits into ctslearn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just commits into ctslearn" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
