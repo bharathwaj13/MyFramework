@@ -32,7 +32,6 @@ public class LoginPage extends BaseTest {
 		System.out.println(driver.getTitle());
 		System.out.println("Updated from ctslearn branch");
 		System.out.println("Inserted from Master Line 3");
-
 		ele_userName.sendKeys("DemoSalesManager");
 		ele_password.sendKeys("crmsfa");
 		button_login.click();
