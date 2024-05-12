@@ -9,5 +9,8 @@
         <module name="FrameworkFromScratch" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FrameworkFromScratch" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

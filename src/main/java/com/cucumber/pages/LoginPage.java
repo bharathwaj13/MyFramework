@@ -30,7 +30,10 @@ public class LoginPage extends BaseTest {
 	public HomePage performLogin() {
 		System.out.println("Inside performLogin method");
 		System.out.println(driver.getTitle());
+
 		System.out.println("Updated from ctslearn branch1");
+		System.out.println("Inserted from Master Line 4");
+
 		ele_userName.sendKeys("DemoSalesManager");
 		ele_password.sendKeys("crmsfa");
 		button_login.click();
