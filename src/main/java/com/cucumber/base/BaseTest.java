@@ -22,7 +22,7 @@ public class BaseTest {
 		prop=new Properties();
 		//Added from cts_learn
 		FileInputStream fis;
-		//Pushed from learn branch
+		//Pushed from learn_branch
 
 		try {
 			fis = new FileInputStream("src/test/resources/seleniumconfig.properties");
