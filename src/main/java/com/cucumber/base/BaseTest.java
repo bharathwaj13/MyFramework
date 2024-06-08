@@ -28,6 +28,7 @@ public class BaseTest {
 		prop=new Properties();
 		//Added from cts_learn
 		FileInputStream fis;
+		//Added from cts_learn
 		try {
 			fis = new FileInputStream("src/test/resources/seleniumconfig.properties");
 			prop.load(fis);
