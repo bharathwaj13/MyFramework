@@ -20,8 +20,10 @@ public class BaseTest {
 
 	public BaseTest() {
 		prop=new Properties();
+		//Added from cts_learn
 		FileInputStream fis;
 		//Pushed from learn branch
+
 		try {
 			fis = new FileInputStream("src/test/resources/seleniumconfig.properties");
 			prop.load(fis);
